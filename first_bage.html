@@ -17,20 +17,27 @@
 <body>
     <header>
         <div class="logo"><a href=""><img src="./logo.png" alt="" width="235" height="70"></a></div>
-        <div class="navigation">
-            <ul>
-                <li><a href="./About.html">About</a></li>
-                <li><a href="./Services.html">Services</a></li>
-                <li><a href="./Why_somalia.html">Why Somalia</a></li>
-                <li><a href="./Contact.htm">Contact</a></li>
-            </ul>
+        <div class="responsive">
+            <div class="navigation" id="Mynavigation">
+                <ul>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Services.html">Services</a></li>
+                    <li><a href="./Why_somalia.html">Why Somalia</a></li>
+                    <li><a href="./Contact.htm">Contact</a></li>
+                </ul>
+                <!-- responsive icon -->
+            </div>
+            <a href="#" class="responsive-icon">
+                <i class='bx bx-menu'></i>
+            </a>
         </div>
+
         
     </header>
     <!-- section1 -->
     <div class="section-1">
-        <img src="../images/Sombiz/Home/Slider-one.jpg" alt="">
-        <div class="text">
+        <img src="./images/Home/Slider-one.jpg" alt="">
+        <div class="texts">
             <span class="small_text">WE DEPEND ON THE LASTEST TECHNOLOGY FOR THE WORLD </span> <br>
             <span class="large_text">We have narrowed <br> down your needs</span> <br>
             <button>Learn More</button>
@@ -70,7 +77,7 @@
     <div class="section3">
         <div class="shabaq1"><img src="./shabaq.png" alt=""></div>
         <div class="video_image">
-            <img src="./Sombiz/Home/About-us.jpg" alt="">
+            <img src="./images/Home/About-us.jpg" alt="">
             <a href=""><i class='bx bx-play'></i></a>
         </div>
         <div class="small_detail">
@@ -86,7 +93,7 @@
     <div class="section4">
         <div class="shabaq2"><img src="./shabaq2.png" alt=""></div>
         <div class="Our-Philosophy_image">
-            <img src="./Sombiz/Home/Our-Philosophy.jpg" alt="">
+            <img src="./Our-Philosophy.jpg" alt="">
         </div>
         <div class="small_left_text">
             <h2>Areas of expertise include and not limited to:</h2>
@@ -132,8 +139,8 @@
 
     <!------------------------------ Section 5 ----------------------------------->
     <div class="section5">
-        <div class="below_image"><img src="./Sombiz/Home/office.jpg" alt=""></div>
-        <div class="front_image"><img src="./Sombiz/Home/Why-Sombiz-on.jpg" alt=""></div>
+        <div class="below_image"><img src="./images/Home/office.jpg" alt=""></div>
+        <div class="front_image"><img src="./images/Home/Why-Sombiz-on.jpg" alt=""></div>
         <div class="right_text">
             <h2>Service Quality Promise</h2>
             <p>We are committed to keeping our Quality Service Promise program through:</p>
@@ -202,7 +209,7 @@
     <div class="footer">
         <div class="footer_content">
             <div class="footer_logo">
-                <img src="./Sombiz/Home/footer-logo.png" alt="">
+                <img src="./images/Home/footer-logo.png" alt="">
                 <p>Today, Sombiz is Somalia’s leading business 
                     support. We make the process of company formation 
                     easy and convenient for business owners</p>
@@ -257,8 +264,17 @@
 
     </div>
     
-
-
+<!-- 
+    <script>
+        function myFunction() {
+          var x = document.getElementById("Mynavigation");
+          if (x.className === "navigation") {
+            x.className += " responsive";
+          } else {
+            x.className = "navigation";
+          }
+        }
+    </script> -->
 
 </body>
 </html>
