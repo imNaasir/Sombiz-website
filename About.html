@@ -8,31 +8,38 @@
     <link rel="stylesheet" href="./style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/7fcaec868f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./about style.css">
     <style>
-        .section-1{
+        .topic{
             background-color: #300370;
             height: 52vh;
+            width: 100%;
+            /* border: 2px solid red; */
+            position: relative;
+            overflow: visible;
 
         }
-        .section-1 .text{
-            
-            position: relative;
-        }
-        .section-1 .text p{
-            top: 0;
-            position: absolute;
-            left: 5.8em;
-            font-size: 4.5em;
+        .topic p{
             color: #fff;
-            font-family: "Alata", sans-serif !important;
-  
-            /* text-align: center; */
+            padding-top: 10%;
+            font-size: 6rem;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: "Alata";
+            font-weight: 500;
         }
+
         .section3{
             margin-top: 5em;
         }
         .section3 .shabaq1{
             margin-top: 25em;
+            animation: animate 5s linear infinite alternate;    
+        }
+        @keyframes animate{
+            to{margin-top: 27em;}
         }
         .section3 .small_detail{
             position: absolute;
@@ -51,13 +58,21 @@
         height: 70vh;
         margin-top: -10px;
         
-}       
+        
+}
+/* ------------------------------------------------------------------------------- */
+ .Boxes:hover  .contants > i {
+    transform: rotate(360deg);
+
+}
+       
 .Boxes .contants{
     line-height: 4; 
 }
 .contants i{
     margin-left: 0em;
     color: #e42b2b;
+    transition: transform 0.6s;
 }
 .contants h3{
     color: #1D2B36;
@@ -110,6 +125,13 @@
     z-index: 1;
     border-radius: 20px;   
 }
+.video_images > a {
+    background-color: #fff;
+    padding: 10px;
+border: 1px solid red;
+    border-radius: 50%;
+    /* border: 2px solid #fff; */
+} 
 .video_images i{
     z-index: 2;
     font-size: 70px;
@@ -117,9 +139,9 @@
     right: 6em;
     color: #FF3366;
     bottom: 4.5em;
-    background-color: #fff;
+    /* background-color: #fff;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 50%; */
     
 }
 .num2{
@@ -193,35 +215,154 @@
     margin-top: -0.3em;
 }
 
+/* for tablet */
+@media screen and (max-width: 768px) {
+    .section3{
+        position: relative;
+        overflow: visible;
+        margin-top: -22em;
+    }
+    .section3 .shabaq1 img{
+        position: absolute;
+        top: 15em;
+        left: 0;
+        width: 150px;
+        height: auto;     
+    }
+    .section3 .video_image img{
+        position: absolute;
+        left: 3em;
+        width: 300px;
+    }
+    .section3 .small_detail{
+        position: absolute;
+        left: 25em;
+        border: 1px solid red;
+        box-sizing: border-box;
+        height: 90vh;
+        z-index: 1;
+
+    }
+    .section3 .small_detail p{
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+
+    /* section7 */
+    .section7{
+        margin-top: 15em;
+        height: 190vh;
+    }
+
+    /* video section */
+    .vidio_section{
+        /* border: 1px solid red; */
+        height: 160vh;
+        position: relative;
+        /* padding: 0;
+        margin: 0; */
+    }
+    .vidio_section .small_left_text{
+        position: absolute;
+        top: -65px;
+        left: -3em;
+        /* border: 1px solid blue; */
+        width: 100%;
+    }
+    .vidio_section .video_images{
+        position: relative;
+        top: 27em;
+        right: 2em;
+        /* border: 1px solid darkblue; */
+        height: 73vh;
+    }
+    .vidio_section .video_images img{
+        width: 90%;
+    }
+    /* .vidio_section .video_images a{
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        transform: translate(-50%, -50%);
+        
+    } */
+    /* .vidio_section .video_images a i{
+        position: absolute;
+
+    } */
+    .vidio_section .shabaq1{
+        margin-top: 22em;
+    }
+    .vidio_section .shabaq1 img{
+        width: 250px;
+    }
+
+    /* num2*/
+    .num2{
+        margin-top: 0em;
+    }
+    .num2 .centres_location_members .box-three{
+        position: absolute;
+        right: 0;
+        top: 120%;
+        
+    }
+    .how_we_work{
+        margin-top: -16em;
+        height: 70vh;
+    } 
+    .how_we_work .txt {
+        padding-top: 9.7em;
+        z-index: 5;
+    }
+
+    /* num 3 */
+    .num3{
+       margin-top: -10em; 
+    }
+
+    /* Why_Sombiz */
+    .Why_Sombiz{
+        margin-top: -29em;
+    }
+
+
+    
+}
+
 
     </style>
 </head>
 <body>
     <header>
-        <div class="logo"><a href=""><img src="./logo.png" alt="" width="249" height="76"></a></div>
-        <div class="navigation">
-            <ul>
-                <li><a href="./About.html">About</a></li>
-                <li><a href="./Services.html">Services</a></li>
-                <li><a href="./Why_somalia.html">Why Somalia</a></li>
-                <li><a href="./Contact.htm">Contact</a></li>
-            </ul>
+        <div class="logo"><a href=""><img src="./logo.png" alt="" width="235" height="70"></a></div>
+        <div class="responsive">
+            <div class="navigation" id="Mynavigation">
+                <ul>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Services.html">Services</a></li>
+                    <li><a href="./Why_somalia.html">Why Somalia</a></li>
+                    <li><a href="./Contact.htm">Contact</a></li>
+                </ul>
+                <!-- responsive icon -->
+            </div>
+            <a href="#" class="responsive-icon">
+                <i class='bx bx-menu'></i>
+            </a>
         </div>
+
         
     </header>
         <!-- section1 -->
-        <div class="section-1">
-            <!-- <img src="../images/Sombiz/Home/Slider-one.jpg" alt=""> -->
-            <div class="text">
-                <p>About Us</p>
-
-            </div>
+        <div class="topic">
+            <p>About Us</p>
         </div>
             <!-------------------------------------- section2 --------------------------------------------->
     <div class="section3">
         <div class="shabaq1"><img src="./shabaq.png" alt=""></div>
         <div class="video_image">
-            <img src="./Sombiz/About us/About.jpg" alt="">
+            <img src="./images/About us/About.jpg" alt="">
             
         </div>
         <div class="small_detail">
@@ -275,7 +416,7 @@
 
 
     </div>
-<!-- ---------------------------------------------------------------------------------------------------------- -->
+<!--------------------------------------------video section---------------------------------------------------------------- -->
     <div class="vidio_section">
         <div class="small_left_text">
             <h2>Areas of expertise include and not limited to:</h2>
@@ -315,11 +456,12 @@
 
             </ul>
         </div>
+
         <div class="video_images">
+            <img src="./images/About us/Areas-of-expertise.jpg" alt="">
             <a href=""><i class='bx bx-play'></i></a>
-            <img src="./Sombiz/About us/Areas-of-expertise.jpg" alt="">
         </div>
-        <div class="shabaq1"><img src="Sombiz/About us/About-dots.png" alt=""></div>
+        <div class="shabaq1"><img src="./images/About us/About-dots.png" alt=""></div>
 
     </div>
 
@@ -346,7 +488,7 @@
                      ethos that guide our passion to help in expanding business activities within the country.</p>
             </div>
         </div>
-        <div class="Boxes" style="margin-top: -70px;">
+        <div class="Boxes box-three" style="margin-top: -70px;">
             <div class="contants">
                 <i class='bx bxs-user-account'></i>
                 <h3>Our Members</h3>
@@ -400,7 +542,7 @@
 
 <!-----------------------------------------------------------------------------------------------------  -->
 <div class="Why_Sombiz">
-    <img src="./Sombiz/About us/Why-somiz.jpg" alt="">
+    <img src="./images/About us/Why-somiz.jpg" alt="">
     <div class="h1_p">
         <h1>Why Sombiz</h1>
         <p>We have been helping clients access services and set up businesses in Somalia 
@@ -415,7 +557,7 @@
 <div class="footer">
     <div class="footer_content">
         <div class="footer_logo">
-            <img src="./Sombiz/Home/footer-logo.png" alt="">
+            <img src="./images/Home/footer-logo.png" alt="">
             <p>Today, Sombiz is Somalia’s leading business 
                 support. We make the process of company formation 
                 easy and convenient for business owners</p>
