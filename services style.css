@@ -1,0 +1,193 @@
+.topic{
+    background-color: #300370;
+    height: 52vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+    overflow: visible;
+
+}
+.topic p{
+    color: #fff;
+    padding-top: 10%;
+    font-size: 6rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: "Alata";
+    font-weight: 500;
+}
+
+.main{
+    width: 100%;
+    height: 240vh;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 0em;
+    background-color: #F7F6F9;
+    border-bottom: 1.5px solid #556575;
+
+    
+}
+
+.what_we_do{
+    width: 39%;
+    margin-left: 7em;
+    margin-top: 10em;
+    line-height: 1.7;
+}
+.what_we_do h3{
+    color: #34246C;
+    font-family: "Alata", sans-serif !important;
+    font-size: 52px;
+
+    
+}
+.what_we_do p{
+    color: #002E78;
+    font-family: "Alata", sans-serif !important;
+    font-size: 20px;  
+    line-height: normal; 
+}
+.what_we_do button{
+    margin-top: 27px;
+    background-color: #34246C;
+    border: none;
+    width: 25%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.what_we_do button a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: inherit;
+
+}
+.more_info{
+    width: 37%;
+    border: none;
+    position: absolute;
+    top: 11em;
+    right: 9em;
+    box-sizing: border-box;
+    overflow: hidden; 
+    height: 240vh;
+    
+}
+.more_info .boder-bottom{
+    background-color: #002E78;
+    width: 100%;
+    height: 0.1vh;
+
+}
+.more_info h4{
+    color: #34246C;
+    font-family: "Alata", sans-serif !important;
+    font-size: 27px;
+
+}
+.more_info .flex{
+    display: flex;
+    align-items: center;
+    line-height: 3;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 90%;
+    overflow: visible;
+    
+    
+}
+.flex span a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bolder;
+
+}
+.more_info .veiw_more{
+    font-size: 17px;
+    color: #34246C;
+    font-family: "Alata", sans-serif !important;
+    padding-top: 20px;
+    font-weight: 400;
+    
+}
+.veiw_more .bottom_border{
+    width: 18%;
+    height: 0.3vh;
+    background-color: #34246C;
+    
+}
+.other_migration  span a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bolder;
+    padding: 15px 0;
+    margin-left: 10px;
+}
+
+.footer{
+    margin-top: 7.6em;
+}
+
+
+/* for Tablet */
+@media screen and (max-width: 768px) {
+    .topic{
+        height: 30vh;
+    }
+    .topic p{
+        font-size: 4rem;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);    
+    }
+
+    .what_we_do{
+        margin-left: 1.5em;
+        width: 35%;
+    }
+    .what_we_do h3{
+        font-size: 35px;
+    }
+    .what_we_do button{
+        width: 80%;
+    }
+    .more_info{
+        position: absolute;
+        right: 6em;
+    }
+    .main{
+        margin-top: 0em;
+        height: 150vh;
+    }
+    .more_info{
+        width: 52%;
+        position: absolute;
+        right: 1.5em;
+    }
+    .more_info .flex{
+        width: 100%;
+        margin-left: 0px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+
+    }
+    .footer{
+        height: 105vh;
+    }
+
+
+    
+}
+
+

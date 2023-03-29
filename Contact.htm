@@ -8,191 +8,31 @@
     <link rel="stylesheet" href="./style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/7fcaec868f.js" crossorigin="anonymous"></script>
-    <style>
-
-        /* ------------ */
-        .all_body{
-            position: relative;
-            width: 100%;
-            height: 198vh;
-            box-sizing: border-box;
-            overflow: hidden;
-            border: none;
-        }
-
-
-        /* .all_body .first_boxes{
-            margin-left: 25em;
-        } */
-        /* .all_body .second_boxes{
-            margin-left: 25em;
-            margin-top: -8.5em;
-            
-        } */
-
-
-
-        .num2{
-            background: none;
-        } 
-        .centres_location_members .Boxes{
-            width: 380px;
-            height: 45vh;
-            box-shadow: 5px 5px 8px #F6F6F7;
-            /* box-shadow: 0 20px 30px 0 rgb(38 42 76 / 10%) !important; */
-            border: 1px solid #C9C9CA;
-            transition: 0.5s;
-        }
-        .centres_location_members .Boxes:hover{
-            border: none;
-            box-shadow: 20px 20px 70px 0 rgb(38 42 76 / 10%) !important;
-            
-        }
-        .all_body h2{
-            text-align: center;
-            font-size: 50px;
-            font-family: "Alata", sans-serif !important;
-            color: #34246C;
-            
-        }
-
-        form {
-            padding: 0px  5em;
-            margin-top: -8em;
-   
-        }
-        form .compolsary{
-            display: flex;
-            align-items: center;
-            width: 98%;
-            height: 90vh;
-            justify-content: space-between;
-        }
-
-
-        .compolsary label{
-            line-height: 2.8;
-            color: #566676;
-            font-size: 18px;
-            font-family: "Alata",sans-serif;
-            margin-left: 12em;
-        }
-        .compolsary input, textarea{
-            padding: 0 20px;
-            
-            width: 43em;
-            height: 9.5vh;
-            border: 1px solid #E7E7E7;
-            background-color: #F2F2F2;
-            color: #939FAA;
-            
-        }
-        .compolsary input:focus{
-            outline: none;
-            border: 1px solid #5f20b8;
-        }
-        .text_area{
-            margin-top: -10em;
-        }
-
-        .text_area textarea{
-            /* margin-top: -10em; */
-            width: 97%;
-            height: 25vh;
-            padding: 20px;
-            font-size: 20px;
-            color: #939FAA;
-    
-        }
-        .text_area textarea:focus{
-            outline: none;
-            border: 1px solid #5f20b8;
-            
-        }
-        .text_area label{
-            line-height: 2.8;
-            color: #566676;
-            font-size: 18px;
-            font-family: "Alata",sans-serif;
-            margin-left: 30em;
-
-        }
-
-        .p_button{
-            text-align: center;
-            line-height: 3.5;
-        }
-        .p_button p{
-            color: #D4D4D4;
-            font-size: 15px;
-            font-family: "Alata",sans-serif;;
-        }
-        .p_button button{
-            width: 15%;
-            height: 10vh;
-            background-color: #E80505;
-            border: none;
-            border-radius: 5px;
-            transition: 0.5s;
-
-
-        }
-        .p_button button:hover{
-            background-color: #AD91DB;
-        }
-        .p_button button a{
-            text-decoration: none;
-            text-align: center;
-            font-size: 15px;
-            color: #fff;
-            font-weight: bold;
-
-        }
-
-
-
-
-
-
-        p.sombiz a{
-            font-size: 20px;
-            text-decoration: none;
-            color: #AD91DB;
-        }
-        p.sombiz a:hover{
-            color: #9BA4BB;
-        }
-
-
-
-
-
-
-
-
-
-    </style>
+    <link rel="stylesheet" href="./Contact.css">
 </head>
 <body>
     <header>
-        <div class="logo"><a href=""><img src="./logo.png" alt="" width="249" height="76"></a></div>
-        <div class="navigation">
-            <ul>
-                <li><a href="./About.html">About</a></li>
-                <li><a href="./Services.html">Services</a></li>
-                <li><a href="./Why_somalia.html">Why Somalia</a></li>
-                <li><a href="./Contact.htm">Contact</a></li>
-            </ul>
+        <div class="logo"><a href=""><img src="./logo.png" alt="" width="235" height="70"></a></div>
+        <div class="responsive">
+            <div class="navigation" id="Mynavigation">
+                <ul>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Services.html">Services</a></li>
+                    <li><a href="./Why_somalia.html">Why Somalia</a></li>
+                    <li><a href="./Contact.htm">Contact</a></li>
+                </ul>
+                <!-- responsive icon -->
+            </div>
+            <a href="#" class="responsive-icon">
+                <i class='bx bx-menu'></i>
+            </a>
         </div>
+
         
     </header>
         <!-- section1 -->
-        <div class="section-1">
-            <!-- <img src="../images/Sombiz/Home/Slider-one.jpg" alt=""> -->
-            <div class="text">
-                <p>Contact</p>
-
-            </div>
+        <div class="topic">
+            <p>Contact</p>
         </div>
     <!---------------------------------------- section2 --------------------------------------------->
 <div class="all_body">
@@ -276,7 +116,7 @@
 <div class="footer">
     <div class="footer_content">
         <div class="footer_logo">
-            <img src="./Sombiz/Home/footer-logo.png" alt="">
+            <img src="./images/Home/footer-logo.png" alt="">
             <p>Today, Sombiz is Somalia’s leading business 
                 support. We make the process of company formation 
                 easy and convenient for business owners</p>

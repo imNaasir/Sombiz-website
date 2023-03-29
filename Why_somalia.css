@@ -1,0 +1,210 @@
+.topic{
+    background-color: #300370;
+    height: 52vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+    overflow: visible;
+
+}
+.topic p{
+    color: #fff;
+    padding-top: 10%;
+    font-size: 6rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: "Alata";
+    font-weight: 500;
+}
+/* ------------ */
+.all_body{
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: none;
+    border: 1px solid blue;
+}
+.all_body .h2{
+    position: absolute;
+    left: 18em;
+    top: 3em;
+    font-family: "Alata", sans-serif;
+    font-size: 30px;
+}
+
+.all_body .small_left_text{
+    position: absolute;
+}
+
+.all_body .first_boxes{
+    margin-left: 25em;
+}
+.all_body .second_boxes{
+    margin-left: 25em;
+    margin-top: -8.5em;
+    
+}
+
+
+
+.num2{
+    background: none;
+} 
+.centres_location_members .Boxes{
+    width: 380px;
+    height: 66vh;
+    box-shadow: 5px 5px 8px #F6F6F7;
+    /* box-shadow: 0 20px 30px 0 rgb(38 42 76 / 10%) !important; */
+    border: 1px solid #e4e4e4 !important;
+    transition: 0.4s;
+    outline: none !important;
+}
+.Boxes .contants p{
+    padding-top: 20px;
+    line-height: 1.25;
+    width: 90%;
+    margin: auto;
+    font-size: 17px;
+}
+.Boxes .contants h3{
+    padding-top: 20px;
+    /* line-height: 1.25; */
+}
+.Boxes .contants i{
+    transition: all ease-in-out 0.3s;
+}
+.centres_location_members .Boxes:hover  .contants > i{
+    transform: rotate(360deg);
+}
+.centres_location_members .Boxes:hover{
+    border: none !important;
+    outline: none !important;
+    box-shadow: 20px 20px 70px 0 rgb(38 42 76 / 10%) !important;
+    
+}
+
+
+
+
+.centres_location_members .box1{
+    border: none !important; 
+    box-shadow: 0 20px 70px 0 rgb(38 42 76 / 10%) !important;
+}
+.centres_location_members .box2{
+    margin-top: -80px;
+   
+}
+
+
+
+
+.shabaq{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0.3em;
+    animation: red-shabaq 3s linear 0s alternate;
+}
+@keyframes  red-shabaq{
+    0%{bottom: 0.3em;}
+    100%{bottom: 1em;}
+}
+.all_body .small_left_text{
+    position: absolute;
+    top: 10em;
+    left: 5em;
+    z-index: 100;
+    width: 24%;
+
+}
+.small_left_text h2{
+    font-size: 27px;
+}
+.small_left_text .list_icon i{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+@media  screen and (max-width: 768px) {
+    .topic{
+        height: 30vh;
+    }
+    .topic p{
+        font-size: 4rem;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);    
+    }
+    .all_body{
+        position: relative;
+    }
+    .small_left_text{
+        border: 1px solid red;
+        position: absolute;
+        top: 5em !important;
+        left: 1.5em !important;
+        width: 95% !important;
+    }
+
+    .all_boxes_in_whySomalia{
+        background-color: rgb(247, 247, 247);
+        width: 100%;
+        height: 1000vh;
+        position: relative;
+        left: 0em;
+        top: 30em; 
+        z-index: 10000;
+        margin-left: 0em;  
+        overflow: visible;
+    }
+    .all_boxes_in_whySomalia .first_boxes,  .all_boxes_in_whySomalia .second_boxes{
+        margin-left: 0em;
+        position: relative;
+        border: 1px solid chartreuse;
+        height: 70vh;
+        overflow: visible;
+    }
+    .all_boxes_in_whySomalia .first_boxes .section7 .centres_location_members, .all_boxes_in_whySomalia .second_boxes .section7 .centres_location_members{
+        border: 2px solid rgb(0, 0, 0);
+        width: 100% !important; 
+        position: absolute;
+        left: 0%;
+        top: 3%;
+        /* box-sizing: border-box; */
+        overflow: visible;
+        margin-top: -4em;
+        height: 40vh;
+    }
+    .all_boxes_in_whySomalia .second_boxes .section7 .centres_location_members{
+        margin-top: -7em;
+        border: 1px solid red;
+        height: 50vh;
+        position: absolute;
+        overflow: visible;
+    }
+
+    .all_boxes_in_whySomalia  .section7 .centres_location_members .Boxes{
+        width: 45%;
+        height: 38vh;
+        background-color: bisque;
+    }
+    /* .all_boxes_in_whySomalia .first_boxes .section7 .centres_location_members .box2{
+        margin-top: -70px;
+    } */
+    /* .all_boxes_in_whySomalia .second_boxes .section7 .centres_location_members{
+        width: 100%;
+        margin-top: -10em;
+    } */
+
+
+    .footer{
+        margin-top: 10em;
+    }
+    
+}
