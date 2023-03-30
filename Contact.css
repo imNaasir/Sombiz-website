@@ -159,6 +159,9 @@ p.sombiz a:hover{
 
 
 @media  screen and (max-width: 768px) {
+    .responsive-icon{
+        margin-top: 0.5em;
+    }
     .topic{
         height: 30vh;
     }
@@ -225,6 +228,9 @@ p.sombiz a:hover{
     .footer{
         margin-top: -34em;
         height: 105vh;
+    }
+    .subfooter{
+        height: 7vh;
     }
 
 }
